@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+ROute::resource('/posts', App\Http\Controllers\PostController::class);
+ROute::resource('/tags', App\Http\Controllers\PostController::class);
