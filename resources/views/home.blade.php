@@ -2,9 +2,6 @@
 
 @section('content')
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 <div class="container">
     <div class="row justify-content-center">
@@ -120,6 +117,64 @@
                 </div>
             </div>
             <!-- /Attachment Modal -->
+    </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">buttons col-row</div>
+        <div class="card-body">
+            <div class="col-9">
+                <div class="row">
+                    <button class="btn btn-primary">test</button>
+                    <button class="btn btn-primary">test2</button>
+                    <form action="">
+                        <button class="btn btn-primary">test2</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <form action="">
+                        <button class="btn btn-success">test</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <button class="btn btn-primary">test</button>
+                </div>
+            </div>
+            <br>
+            <div class="col-12">
+                <button class="btn btn-primary btn-block">test</button>
+
+                <div class="row-2">
+                    <button class="btn btn-primary btn-block">test</button>
+                    <button class="btn btn-primary btn-block">test2</button>
+                </div>
+                <div class="row-7">
+                    <button class="btn btn-primary">test</button>
+                </div>
+
+                <button class="btn btn-primary">test</button>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="card">
+        <div class="card-header">buttons row-col</div>
+        <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <button class="btn btn-primary btn-block">test</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary btn-block">test</button>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary btn-block">test</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
